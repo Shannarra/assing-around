@@ -1,0 +1,31 @@
+* Ass(embly-)ing around
+
+A collection of trial-and-error x86_64 Assembly files written in [[https://flatassembler.net/][FASM]].
+
+Used primarily for learning FASM and testing some ideas, horsing around with ASM.
+
+** How-to
+1. In order to run anything, you'll need to [[https://flatassembler.net/download.php][install fasm]].
+   Just follow the instructions, or if you're under Debian-based Linux - use the following command:
+
+   #+NAME: install fasm
+   #+BEGIN_SRC bash
+
+     sudo apt install fasm
+   #+END_SRC
+
+2. Running any example is as simple as just running the [[./run.sh][run.sh]] script with ONE parameter - the name
+   of the example you want to run.
+
+   Example:
+
+   #+NAME: run an example
+   #+BEGIN_SRC bash
+
+     ./run.sh numbers
+   #+END_SRC
+
+   This will compile and run the file numbers.asm for you, creating an executable of the same name.
+
+** Why?
+ I'm bored and horing around with Assembly seems like a good idea.
