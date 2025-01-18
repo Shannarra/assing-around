@@ -4,4 +4,5 @@ set -e
 # especially since "numbers" does nested loops and whatnot
 fasm -m 100_000 $1.asm
 chmod +x $1
-./$1
+# Run the example and forward all arguments to it
+./$1 $@ 

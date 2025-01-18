@@ -29,3 +29,6 @@ Used primarily for learning FASM and testing some ideas, horsing around with ASM
 
 ** Why?
  I'm bored and horing around with Assembly seems like a good idea.
+** Examples
+1. [[./numbers.asm][numbers.asm]] - A tripple-nested loop of printing numbers and their sums.
+2. [[./args.asm][args.asm]] - Reading and reporting the command-line arguments provided to itself.
